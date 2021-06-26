@@ -1,0 +1,19 @@
+{
+  "name": "p3_ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet P3 OpenClassRooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phenomenium/P3_Ohmyfood.git"
+  },
+  "author": "Aïssa Belguidoum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phenomenium/P3_Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Phenomenium/P3_Ohmyfood#readme"
+}

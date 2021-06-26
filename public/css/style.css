@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* font-family: 'Roboto', 'Shrikhand', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* à modifier --> chemin */
+body, html {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+.header__main div {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
