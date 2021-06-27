@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-/* à modifier --> chemin */
+/* à modifier --> chemin main.scss*/
 
-@import "./base/typography";
+@import "./base/typography", "./base/communs";
 //@import "./components/...";
 @import "./layouts/header";
 //@import "./utils/...";

@@ -2,13 +2,37 @@
 /* font-family: 'Roboto', 'Shrikhand', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-/* à modifier --> chemin */
+/* à modifier --> chemin main.scss*/
 body, html {
   font-family: "Roboto", sans-serif;
 }
 
 h3 {
-  font-family: "Shrikhand", sans-serif;
+  font-family: "Roboto", "Shrikhand", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  margin: 0;
 }
 
 .header__main div {
