@@ -6,5 +6,5 @@
 /* à modifier --> chemin main.scss*/
 @import "./Utils/variables", "./utils/mixins";
 @import "./base/communs", "./base/typography";
-@import "./layouts/header";
-@import "./components/maps";
+@import "./layouts/header", "./layouts/aPropos";
+@import "./components/maps", "./components/btn-aPropos";
