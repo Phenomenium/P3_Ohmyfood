@@ -4,8 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /* à modifier --> chemin main.scss*/
-
-@import "./base/typography", "./base/communs";
-//@import "./components/...";
+@import "./Utils/variables", "./utils/mixins";
+@import "./base/communs", "./base/typography";
 @import "./layouts/header";
-//@import "./utils/...";
+@import "./components/maps";

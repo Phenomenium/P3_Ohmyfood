@@ -3,14 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 /* à modifier --> chemin main.scss*/
-body, html {
-  font-family: "Roboto", sans-serif;
-}
-
-h3 {
-  font-family: "Roboto", "Shrikhand", sans-serif;
-}
-
+/*---Déclaration des couleurs, du dégradée et type de police "cursive" qui donne un aspect manuscrit---*/
 body {
   margin: 0;
   padding: 0;
@@ -35,9 +28,36 @@ h2 {
   margin: 0;
 }
 
+body, html {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", "Shrikhand", sans-serif;
+}
+
 .header__main div {
   text-align: center;
   margin-top: 1rem;
+}
+
+.maps {
+  background: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 5px 5px 0px #dddddd;
+  /*ombre portée vers intérieurs*/
+}
+
+.maps__recherche input {
+  border: none;
+  background: #eaeaea;
+  font-size: 1rem;
+  padding: 20px 5px 20px 5px;
+  margin-top: 5px;
+  text-align: center;
+  width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
