@@ -1,0 +1,8 @@
+.btn__aPropos button{
+  @include btn-aPropos;
+  &:hover {
+    background-color: lighten(#9356dc, 10%);
+    background-blend-mode: lighten;/*mode de fusion avec l'arrière plan*/
+    box-shadow: 4px 4px 6px #000;
+  }
+}
