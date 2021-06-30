@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* à modifier --> chemin main.scss*/
 /*---Déclaration des couleurs, du dégradée et type de police "cursive" qui donne un aspect manuscrit---*/
+/*-----Pages_Restaurants-----*/
 body {
   margin: 0;
   padding: 0;
@@ -29,10 +30,6 @@ h1 {
 }
 
 body, html {
-  font-family: "Roboto", sans-serif;
-}
-
-h3 {
   font-family: "Roboto", "Shrikhand", sans-serif;
 }
 
@@ -92,6 +89,7 @@ h3 {
 
 .proposition__choix li p {
   font-weight: bold;
+  font-size: 1.2rem;
   margin-left: 20px;
 }
 
@@ -117,6 +115,12 @@ h3 {
   margin-left: 20px;
 }
 
+.main__img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
 .restaurant__main {
   background: #f2f2f2;
   display: flex;
@@ -125,6 +129,10 @@ h3 {
 
 .restaurant__titre h3 {
   padding: 30px 0px 0px 10px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .vignette {
@@ -198,6 +206,15 @@ ul li a {
   margin-right: 5px;
 }
 
+.main__menu {
+  background-color: #f6f6f6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  position: relative;
+  margin-top: -50px;
+}
+
 .maps {
   background: #eaeaea;
   display: flex;
@@ -245,6 +262,103 @@ ul li a {
   position: absolute;
   right: 1%;
   top: 5%;
+}
+
+.header__logo {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fleche {
+  position: absolute;
+  left: 20px;
+}
+
+.main__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.menu__titre {
+  font-family: Shrikhand, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.repas {
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 6px #aaa;
+  position: relative;
+  cursor: pointer;
+}
+
+.repas h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.ligne {
+  width: 40px;
+  border: 2px solid #99E2D0;
+  margin-left: 10px;
+}
+
+.ligne p {
+  margin: 0;
+}
+
+.ligne span {
+  margin-right: 5px;
+}
+
+.ligne__prix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+.entrees h3, .plats h3, .dessert h3 {
+  margin-left: auto;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-family: "roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn__commande {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__commande button {
+  width: 250px;
+  height: 50px;
+  background: linear-gradient(to top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 10px 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 4px 4px 6px #aaa;
+  cursor: pointer;
+  margin: 30px 0;
+  padding: 10px;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
