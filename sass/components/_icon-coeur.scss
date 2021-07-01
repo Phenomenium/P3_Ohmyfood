@@ -1,0 +1,15 @@
+.animation {
+    color: black;
+    cursor: pointer;
+    transition: all 500ms;
+   
+    &:hover {
+         -webkit-transition: all 500ms;
+        display: inline-block;
+        opacity: 1;
+        background: linear-gradient(to top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;/*commande "fill" pour le remplissage du coeur*/
+        font-weight: bold;
+    }
+}    
