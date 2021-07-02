@@ -1,0 +1,19 @@
+.comportement__title {
+    padding-left: 10px;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.number {
+    @include comportement-number;
+}
+.comportement__icon i {
+    color: #b2b2b2;
+    margin: 0 30px;
+}
+.comportement {
+    padding: 0 20%;
+}
