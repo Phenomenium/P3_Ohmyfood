@@ -17,8 +17,8 @@
     width: 500px;
     animation: fadein 9s ease-in-out;
 }
-.icon_valider {
-    @include icon_valider;
+.icon__valider {
+    @include icon-valider;
 }
  
 

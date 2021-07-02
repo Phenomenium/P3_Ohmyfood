@@ -269,13 +269,13 @@ ul li a {
   animation: fadein 9s ease-in-out;
 }
 
-.icon_valider {
+.icon__valider {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
-  width: 50px;
-  height: 63px;
+  width: 70px;
+  height: 78px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
@@ -285,7 +285,7 @@ ul li a {
   opacity: 0;
   transition: transform 330ms ease-in-out;
 }
-.icon_valider .fa-check-circle {
+.icon__valider .fa-check-circle {
   color: #fff;
   transition: transform 500ms ease-in-out;
 }
@@ -408,18 +408,20 @@ ul li a {
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
+  height: 78px;
   box-shadow: 4px 4px 6px #aaa;
   position: relative;
   cursor: pointer;
   white-space: nowrap;
   text-overflow: ellipsis;
+  /*pour les points en poussant le texte*/
   overflow: hidden;
   transition: padding-right 450ms ease-in-out;
 }
 .repas:hover {
   padding-right: 75px;
 }
-.repas:hover .icon_valider {
+.repas:hover .icon__valider {
   opacity: 1;
   transform: translate(-50px);
 }
@@ -450,7 +452,7 @@ ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  line-height: 1.5em;
+  line-height: 1.5rem;
 }
 
 ligne__prix p {
@@ -458,7 +460,6 @@ ligne__prix p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  padding-right: 20px;
 }
 
 .entrees h3, .plats h3, .dessert h3 {

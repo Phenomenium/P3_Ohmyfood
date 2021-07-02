@@ -91,17 +91,18 @@
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
+    height: 78px;
     box-shadow: 4px 4px 6px #aaa;
     position: relative;
     cursor: pointer;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis;/*pour les points en poussant le texte*/
     overflow: hidden;
     transition: padding-right 450ms ease-in-out;
     &:hover {
         padding-right: 75px;
     }
-    &:hover .icon_valider {
+    &:hover .icon__valider {
         opacity: 1;
         transform: translate(-50px);
     }
@@ -109,13 +110,13 @@
         transform: rotate(360deg);
     }
 }
-@mixin icon_valider {
+@mixin icon-valider {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $color-tertiary;
-    width: 50px;
-    height: 63px;
+    width: 70px;
+    height: 78px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
