@@ -27,6 +27,7 @@
     cursor: pointer;
 }
 @mixin vignette {
+    width: auto;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
     margin: 20px;
@@ -63,7 +64,10 @@
 
 @mixin header-logo{
     text-align: center;
-    margin-top: 1rem;
+    img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 @mixin Pages-menu {
     display: flex;
@@ -84,7 +88,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-//    font-size: 1.2rem;
+    font-size: 25px;
 }
 @mixin repas {
     background-color: #fff;
