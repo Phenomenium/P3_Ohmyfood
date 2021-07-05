@@ -2,8 +2,18 @@
     @include aPropos;
     h2 {
         font-weight: bold;
+        @include mobile{
+            margin: 70px;
+            margin-top: 0px;
+        }
+//        margin : 30px;
     }
     p {
         color: #4d4d4d;
+        font-size: 20px;
+        @include mobile {
+            margin-top: -60px;
+        }
+        
     } 
 }

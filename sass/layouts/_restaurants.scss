@@ -8,17 +8,22 @@
     
 }
 .restaurant__main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 25px 200px 25px 200px;
-    gap: 10px;   
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        gap: 10px;
+        margin: auto;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+    }
 }   
-.restaurant__titre h3 {
+.restaurant__titre h1 {
     padding: 30px 0px 0px 10px;
     text-align: center;
     font-family: "roboto", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 .vignette {
     @include vignette;

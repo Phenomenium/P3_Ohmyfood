@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* à modifier --> chemin main.scss*/
-@import "./Utils/variables", "./utils/mixins", "./utils/keyframes";
+@import "./utils/variables", "./utils/mixins", "./utils/keyframes", "./utils/map";
 @import "./base/communs", "./base/typography";
 @import "./layouts/header-logo", "./layouts/aPropos", "./layouts/fonctionnement", "./layouts/restaurants", "./layouts/footer", "./layouts/main-menu", "./layouts/comportement";
 @import "./components/maps", "./components/btn-aPropos", "./components/btn-vignette", "./components/Pages-menu", "./components/icon-coeur", "./components/comportement-btn";

@@ -1,3 +1,11 @@
 .header__logo div {
     @include header-logo;
+    img {
+        @include mobile {
+            width: 50%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    
 }

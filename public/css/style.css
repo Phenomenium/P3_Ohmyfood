@@ -42,6 +42,17 @@
     opacity: 1;
   }
 }
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -77,18 +88,37 @@ body, html {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 599px) {
+  .header__logo div img {
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}
 
 .aPropos {
   background: #f6f6f6;
   text-align: center;
   width: 100%;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 .aPropos h2 {
   font-weight: bold;
 }
+@media screen and (max-width: 599px) {
+  .aPropos h2 {
+    margin: 70px;
+    margin-top: 0px;
+  }
+}
 .aPropos p {
   color: #4d4d4d;
+  font-size: 20px;
+}
+@media screen and (max-width: 599px) {
+  .aPropos p {
+    margin-top: -60px;
+  }
 }
 
 .proposition {
@@ -96,23 +126,34 @@ body, html {
 }
 
 .proposition h1 {
-  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 599px) {
+  .proposition h1 {
+    text-align: left;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .proposition h1 {
+    top: 10px;
+  }
 }
 
-@media screen and (min-width: 1600px) {
-  .proposition h1 {
-    text-align: center;
-  }
+.proposition__choix {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 599px) {
   .proposition__choix {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin-left: -35px;
   }
 }
+
 .proposition__choix li {
   display: flex;
   flex-direction: row;
@@ -168,16 +209,22 @@ body, html {
 .restaurant__main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 25px 200px 25px 200px;
+  width: 80%;
   gap: 10px;
+  margin: auto;
+}
+@media screen and (max-width: 599px) {
+  .restaurant__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
-.restaurant__titre h3 {
+.restaurant__titre h1 {
   padding: 30px 0px 0px 10px;
   text-align: center;
   font-family: "roboto", sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .vignette {
@@ -224,6 +271,11 @@ footer {
   background-color: #353535;
   padding: 25px 0 8px 0;
   color: white;
+}
+@media screen and (max-width: 599px) {
+  footer {
+    text-align: left;
+  }
 }
 
 h3 {
@@ -415,8 +467,8 @@ ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  font-size: 25px;
+  padding: 25px;
+  font-size: 20px;
 }
 
 .repas {

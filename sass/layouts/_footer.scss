@@ -2,9 +2,11 @@ footer {
     display: block;
     text-align: center;
     background-color: #353535;
-//    vertical-align: baseline;
     padding: 25px 0 8px 0;
     color: white;
+    @include mobile {
+        text-align: left;
+    }
 }
     h3 {
         font-family: "Shrikhand", "sans-serif";
