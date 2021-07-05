@@ -3,16 +3,15 @@
     h2 {
         font-weight: bold;
         @include mobile{
-            margin: 70px;
             margin-top: 0px;
-        }
-//        margin : 30px;
+            text-align: center;
+            } 
     }
     p {
         color: #4d4d4d;
-        font-size: 20px;
+        font-size: 18px;
         @include mobile {
-            margin-top: -60px;
+            margin-top: -10px;
         }
         
     } 
