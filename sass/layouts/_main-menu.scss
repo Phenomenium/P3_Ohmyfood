@@ -1,12 +1,14 @@
 .main__menu {
     @include main-menu;
+       
 }
 .full__menu {
-    display: grid;
-    grid-template-columns: 2, 1fr;
+    display: flex;
+    justify-content: space-around;
     @include mobile {
-        flex-direction: column;    
-    }    
+        flex-direction: column;
+        margin: auto;
+    }
 }
 .entrees {
     width: 400px;
