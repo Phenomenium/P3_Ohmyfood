@@ -3,7 +3,7 @@
     h2 {
         font-weight: bold;
         @include mobile{
-            margin-top: 0px;
+            margin-top: 10px;
             text-align: center;
             } 
     }

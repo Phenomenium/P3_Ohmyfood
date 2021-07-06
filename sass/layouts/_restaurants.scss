@@ -13,6 +13,7 @@
         width: 80%;
         gap: 10px;
         margin: auto;
+        padding-bottom: 20px;
         @include mobile {
             display: flex;
             flex-direction: column;
