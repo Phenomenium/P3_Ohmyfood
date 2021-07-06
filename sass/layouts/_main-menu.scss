@@ -2,12 +2,11 @@
     @include main-menu;
 }
 .full__menu {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 2, 1fr;
     @include mobile {
-        flex-direction: column;
-        margin: auto;
-    }  
+        flex-direction: column;    
+    }    
 }
 .entrees {
     width: 400px;

@@ -317,13 +317,12 @@ ul li a {
 }
 
 .full__menu {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 2, 1fr;
 }
 @media screen and (max-width: 599px) {
   .full__menu {
     flex-direction: column;
-    margin: auto;
   }
 }
 
