@@ -81,15 +81,15 @@ body, html {
   font-family: "Roboto", "Shrikhand", sans-serif;
 }
 
-.header__logo div {
+.header__logo {
   text-align: center;
 }
-.header__logo div img {
+.header__logo img {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 599px) {
-  .header__logo div img {
+  .header__logo img {
     width: 50%;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -323,20 +323,34 @@ ul li a {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 599px) {
+  .full__menu {
+    flex-direction: column;
+    margin: auto;
+  }
+}
 
 .entrees {
-  width: 500px;
+  width: 400px;
   animation: fadein 3s ease-in-out;
 }
 
 .plats {
-  width: 500px;
+  width: 400px;
   animation: fadein 6s ease-in-out;
 }
 
 .dessert {
-  width: 500px;
+  width: 400px;
   animation: fadein 9s ease-in-out;
+}
+
+@media screen and (max-width: 599px) {
+  .entrees, .plats, .dessert {
+    width: auto;
+    height: auto;
+    margin: 10px;
+  }
 }
 
 .icon__valider {
@@ -461,6 +475,13 @@ ul li a {
   position: absolute;
   left: 20px;
 }
+@media screen and (max-width: 599px) {
+  .fleche i {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+}
 
 .main__img img {
   object-fit: cover;
@@ -521,8 +542,7 @@ ul li a {
   line-height: 1.5rem;
   padding-right: 15px;
 }
-
-ligne__prix p {
+.ligne__prix p {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -561,7 +581,7 @@ ligne__prix p {
   cursor: pointer;
   margin: 30px 0;
   padding: 10px;
-  width: 10%;
+  width: auto;
 }
 .btn__commande button:hover {
   background-color: #ae80e5;

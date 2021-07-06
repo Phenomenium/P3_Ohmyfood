@@ -4,18 +4,29 @@
 .full__menu {
     display: flex;
     justify-content: space-around;
+    @include mobile {
+        flex-direction: column;
+        margin: auto;
+    }  
 }
 .entrees {
-    width: 500px;
+    width: 400px;
     animation: fadein 3s ease-in-out;
 }
 .plats {
-    width: 500px;
+    width: 400px;
     animation: fadein 6s ease-in-out;
 }
 .dessert {
-    width: 500px;
+    width: 400px;
     animation: fadein 9s ease-in-out;
+}
+.entrees, .plats, .dessert {
+    @include mobile {
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
 }
 .icon__valider {
     @include icon-valider;
