@@ -438,7 +438,7 @@ ul li a {
 }
 
 .Ohmyfood-lettre {
-  animation: kaboom 2s ease alternate infinite;
+  animation: kaboom 5s ease alternate infinite;
 }
 .Ohmyfood-lettre:nth-child(1) {
   animation-delay: 0.1s;
