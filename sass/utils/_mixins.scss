@@ -62,9 +62,9 @@
 
 /*-----Pages_Restaurants-----*/
 
-@mixin header-logo{
+@mixin header-logo {
     text-align: center;
-    img{
+    img {
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -81,14 +81,6 @@
     width: 100%;
     position: relative;
     margin-top: -50px;
-}
-@mixin menu-titre {
-    font-family: Shrikhand, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-    font-size: 20px;
 }
 @mixin repas {
     background-color: #fff;
@@ -134,32 +126,7 @@
         transition: transform 500ms ease-in-out;
   }
 }
-@mixin comportement-number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: $color-primary;
-    color: #fff;
-    border-radius: 50%;
-    border: 2px solid $color-primary;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    right: 10px;
 
-}
-@mixin comportement-btn {
-    margin: 0 20px 20px 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background: #f6f6f6;
-    border: 5px solid #f6f6f6;
-    border-radius: 10px;
-    box-shadow: 4px 4px 6px #fff;
-    font-weight: bold;
-    box-shadow: 4px 4px 6px #e9e9e9;
-}
 
 
 @mixin desktop {
