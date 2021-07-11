@@ -13,12 +13,21 @@
 }
 .entrees {
     animation: fadein 3s ease-in-out;
+    @include tablette {
+    width: 400px;
+  }
 }
 .plats {
     animation: fadein 6s ease-in-out;
+    @include tablette {
+    width: 400px;
+  }
 }
 .dessert {
     animation: fadein 9s ease-in-out;
+    @include tablette {
+    width: 400px;
+  }
 }
 .icon__valider {
     @include icon-valider;

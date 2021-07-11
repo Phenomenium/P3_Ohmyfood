@@ -330,13 +330,28 @@ ul li a {
 .entrees {
   animation: fadein 3s ease-in-out;
 }
+@media screen and (max-width: 768px) {
+  .entrees {
+    width: 400px;
+  }
+}
 
 .plats {
   animation: fadein 6s ease-in-out;
 }
+@media screen and (max-width: 768px) {
+  .plats {
+    width: 400px;
+  }
+}
 
 .dessert {
   animation: fadein 9s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .dessert {
+    width: 400px;
+  }
 }
 
 .icon__valider {
