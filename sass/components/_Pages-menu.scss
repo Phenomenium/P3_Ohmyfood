@@ -51,24 +51,22 @@
     justify-content: space-between;
     align-items: center;
     line-height: 1.5rem;
-    padding-right: 15px;
     p {
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;   
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;   
     }
 }
 .ligne__prix span {
-    margin-right: 0px;
+    margin-left: 10px;
 }
 .entrees h3, .plats h3, .dessert h3 {
-    margin-left: auto;
     padding-left: 10px;
     margin-bottom: 5px;
     font-family: "roboto", sans-serif;
     font-size: 1.5rem;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 .btn__commande {
     display: flex;
