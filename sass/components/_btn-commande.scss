@@ -1,4 +1,4 @@
-.btn__aPropos button {
+.btn__commande button{
     @include btn-aPropos;
     &:hover {
         background-color: lighten(#9356dc, 10%);
