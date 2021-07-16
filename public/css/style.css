@@ -618,6 +618,11 @@ ul li a {
   padding: 10px;
   width: 210px;
 }
+.btn__commande button:hover {
+  background-color: #ae80e5;
+  background-blend-mode: lighten;
+  box-shadow: 4px 4px 6px #000;
+}
 @media screen and (max-width: 599px) {
   .btn__commande button {
     width: 200px;
